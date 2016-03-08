@@ -1,7 +1,7 @@
 package com.brainacad.oop.testshapes;
 
 /**
- * Created by Любовь on 07.03.2016.
+ * Created by Hrinchenko on 07.03.2016.
  */
 public class Rectangle extends Shape {
 
@@ -26,8 +26,8 @@ public class Rectangle extends Shape {
     public double calcArea() {
 
         double area = getHeight()* getWidht();
-        System.out.println("Area is: "+ area);
-        return this.getArea();
+
+        return area;
     }
 
     @Override

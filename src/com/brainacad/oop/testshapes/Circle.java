@@ -1,7 +1,7 @@
 package com.brainacad.oop.testshapes;
 
 /**
- * Created by Любовь on 07.03.2016.
+ * Created by Hrinchenko on 07.03.2016.
  */
 public class Circle extends Shape{
 
@@ -21,8 +21,8 @@ public class Circle extends Shape{
     @Override
     public double calcArea() {
     double area = Math.PI* Math.pow(getRadius(),2);
-        System.out.println("Area is: "+ area);
-        return this.getArea();
+
+        return area;
     }
 
     @Override

@@ -1,7 +1,7 @@
 package com.brainacad.oop.testshapes;
 
 /**
- * Created by Любовь on 07.03.2016.
+ * Created by Hrinchenko on 07.03.2016.
  */
 public class Triangle extends Shape {
 
@@ -38,7 +38,7 @@ public class Triangle extends Shape {
     public double calcArea() {
         double s = (getA() + getB()+getC())/2;
         double area =Math.sqrt(s * (s - getA()) * (s - getB()) * (s - getC()));
-        System.out.println("Area is: "+ area);
-        return super.calcArea();
+
+        return area;
     }
 }

@@ -1,7 +1,7 @@
 package com.brainacad.oop.testshapes;
 
 /**
- * Created by Любовь on 07.03.2016.
+ * Created by Hrinchenko on 07.03.2016.
  */
 public class Shape {
 

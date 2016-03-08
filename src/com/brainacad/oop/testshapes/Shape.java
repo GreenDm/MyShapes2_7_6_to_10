@@ -7,7 +7,7 @@ public class Shape {
 
     private String shapeColor;
 private String shapeName;
-    private double area;
+    
 
     public Shape(String shapeName, String shapeColor) {
         this.shapeColor = shapeColor;
@@ -23,9 +23,7 @@ private String shapeName;
         return shapeColor;
     }
 
-    public double getArea() {
-        return area;
-    }
+  
 
     @Override
     public String toString() {
